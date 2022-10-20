@@ -1,10 +1,14 @@
 //To determine oldest and yougest among three person age
-import java.util.*;
-class Age
+/* 
+@author:levis kiro
+@Date:20/10/2022
+*/
+import java.util.*; //declaring package
+class Age //declaring class
 {
-	public static void main(String args[])
+	public static void main(String args[]) //declaring main
 	{
-		int num1,num2,num3;
+		int num1,num2,num3; //declaring variables
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter age of three person : ");
 		num1=sc.nextInt();
@@ -22,5 +26,5 @@ class Age
 			System.out.println(num2+" is the youngest");
 		else
 			System.out.println(num3+" is the youngest");
-	}
-}
+	}//end of main
+}//end of class
